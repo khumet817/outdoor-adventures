@@ -1,0 +1,86 @@
+// ========================
+// Base Styles
+// ========================
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+.parallax-header {
+    background-image: url(../images/home_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    margin: 0;
+    height: 100vh;
+}
+
+nav {
+    overflow: hidden;
+    background: black;
+
+    a {
+        padding: 0.9em 1em;
+        font-size: 1.1em;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-align: center;
+        color: beige;
+        text-decoration: none;
+        float: left;
+    }
+
+    a:hover {
+        background: rgb(255, 168, 36);
+        color: black;
+    }
+}
+
+a {
+    &:link {
+        color: white;
+        text-decoration: none;
+    }
+
+    &:active {
+        color: orangered;
+    }
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #00000033;
+    z-index: 1;
+
+    a {
+        float: none;
+        color: #000000;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+
+        &:hover {
+            background: rgb(255, 168, 36);
+            color: black;
+        }
+    }
+}
+
+.dropdown:hover,
+.dropdown-content {
+  display: block;
+}
+
+.dropbtn {
+  background-color: rgb(255, 168, 36);
+}

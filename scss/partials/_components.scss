@@ -1,0 +1,25 @@
+// ===============================
+// Web fonts
+// ===============================
+
+// =============
+// Classes
+// =============
+
+.main {
+    &-header {
+        margin: 0;
+        padding: 0;
+    }
+
+    &-heading {
+        font-size: 1em;
+        color: white;
+    }
+}
+
+.container-nav {
+    margin: 1.25em;
+    width: auto;
+    position: sticky;
+}

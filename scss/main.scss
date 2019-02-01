@@ -1,0 +1,21 @@
+// =========================================
+// Global Imports
+// =========================================
+
+@import 'partials/variables',
+        'partials/base',
+        'partials/layout',
+        'partials/components',
+        'partials/responsiveness';
+
+// ==================
+// Font library
+// ==================
+
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans+SC|Unlock';
+
+// =================
+// Icon library
+// =================
+
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'

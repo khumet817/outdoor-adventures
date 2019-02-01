@@ -1,3 +1,85 @@
+@import "https://fonts.googleapis.com/css?family=Noto+Sans+SC|Unlock";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
 
+body {
+  margin: 0; }
+
+.parallax-header {
+  background-image: url(../images/home_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  height: 100vh; }
+
+nav {
+  overflow: hidden;
+  background: black; }
+  nav a {
+    padding: 0.9em 1em;
+    font-size: 1.1em;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: beige;
+    text-decoration: none;
+    float: left; }
+  nav a:hover {
+    background: #ffa824;
+    color: black; }
+
+a:link {
+  color: white;
+  text-decoration: none; }
+a:active {
+  color: orangered; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #00000033;
+  z-index: 1; }
+  .dropdown-content a {
+    float: none;
+    color: #000000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left; }
+    .dropdown-content a:hover {
+      background: #ffa824;
+      color: black; }
+
+.dropdown:hover,
+.dropdown-content {
+  display: block; }
+
+.dropbtn {
+  background-color: #ffa824; }
+
+.grid-1 {
+  grid-template-columns: repeat(4, 1);
+  grid-template-rows: 200px auto 120px;
+  grid-template-areas: "header header  header" "main   main    main" "footer footer  footer"; }
+
+.main-header {
+  grid-area: header; }
+
+.main-header {
+  margin: 0;
+  padding: 0; }
+.main-heading {
+  font-size: 1em;
+  color: white; }
+
+.container-nav {
+  margin: 1.25em;
+  width: auto;
+  position: sticky; }
 
 /*# sourceMappingURL=main.css.map */
