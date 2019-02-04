@@ -52,7 +52,7 @@ nav {
         }
 
         &:active {
-            color: orangered;
+            color: rgb(255, 69, 0);
         }
     }
 }
@@ -96,4 +96,12 @@ h1 {
     text-align: center;
     margin: 13% 28%;
     font-family: 'Fahkwang', sans-serif;
+}
+
+// ===================
+// MAIN STYLES
+// ===================
+
+img {
+    margin: 0;
 }

@@ -1,5 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Noto+Sans+SC|Unlock";
-@import url("https://fonts.googleapis.com/css?family=Fahkwang");
+@import url("https://fonts.googleapis.com/css?family=Assistant|Fahkwang");
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 * {
   box-sizing: border-box;
@@ -70,6 +70,9 @@ h1 {
   margin: 13% 28%;
   font-family: 'Fahkwang', sans-serif; }
 
+img {
+  margin: 0; }
+
 .grid-1 {
   grid-template-columns: repeat(4, 1);
   grid-template-rows: auto auto 120px;
@@ -77,6 +80,17 @@ h1 {
 
 .main-header {
   grid-area: header; }
+
+main {
+  grid-area: main; }
+
+.item1 {
+  grid-column: 1;
+  grid-row: 1 / span 2; }
+
+.item2 {
+  grid-column: 2 / span 2;
+  grid-row: 1; }
 
 .main-header {
   margin: 0 auto; }
@@ -116,5 +130,43 @@ h1 {
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
+
+.wrapper {
+  margin: 2em; }
+
+.activities {
+  border: solid rgba(211, 211, 211, 0.68) 0.001em;
+  padding: 1em; }
+
+.camp-heading {
+  background: #d3d3d354;
+  border: solid #acacac30 0.0005em;
+  box-shadow: black 1px 1px 7px;
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 0.2em;
+  padding: 0.2em;
+  font-family: 'Assistant', sans-serif; }
+
+.container {
+  display: grid;
+  grid-gap: 5px;
+  text-align: center;
+  padding: 10px 20px; }
+
+.grid-act {
+  padding: 15px;
+  max-width: 100%; }
+
+.polaroid-site-1 {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+.item1 {
+  padding: 0; }
+
+.item2 {
+  text-align: left; }
 
 /*# sourceMappingURL=main.css.map */
