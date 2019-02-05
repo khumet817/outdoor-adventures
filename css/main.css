@@ -27,6 +27,16 @@ body {
   padding: 2em;
   height: 60vh; }
 
+.parallax-hiking {
+  background-image: url(../images/hike_bgimg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 2em;
+  height: 60vh; }
+
 nav {
   overflow: hidden;
   background: black; }
@@ -70,7 +80,8 @@ nav {
   display: block; }
 
 .dropdown-content a:hover {
-  background-color: #ddd; }
+  background-color: #ddd;
+  color: black; }
 
 h1 {
   color: white;
@@ -109,6 +120,9 @@ p {
 
 img {
   margin: 0 auto; }
+
+.container:hover .overlay {
+  opacity: 1; }
 
 .grid-1 {
   grid-template-columns: repeat(4, 1);
@@ -169,10 +183,15 @@ main {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
 
 .history {
-  margin: 1em 13em; }
+  margin: 1em 13em;
+  height: auto; }
 
 .wrapper {
   margin: 2em;
+  background: beige; }
+
+.wrapper2 {
+  margin: 8em;
   background: beige; }
 
 .activities {
@@ -200,5 +219,26 @@ main {
 
 .item2 {
   text-align: left; }
+
+.image-container {
+  position: relative;
+  width: 50%; }
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(128, 128, 128, 0.728); }
 
 /*# sourceMappingURL=main.css.map */
