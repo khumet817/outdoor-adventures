@@ -1,5 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Noto+Sans+SC|Unlock";
-@import url("https://fonts.googleapis.com/css?family=Assistant|Fahkwang");
+@import url("https://fonts.googleapis.com/css?family=Assistant|Cabin+Condensed|Didact+Gothic|Fahkwang|Play");
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 * {
   box-sizing: border-box;
@@ -16,6 +16,16 @@ body {
   background-attachment: fixed;
   margin: 0;
   height: 80vh; }
+
+.parallax-camping {
+  background-image: url(../images/camp_bgimg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 2em;
+  height: 60vh; }
 
 nav {
   overflow: hidden;
@@ -70,8 +80,35 @@ h1 {
   margin: 13% 28%;
   font-family: 'Fahkwang', sans-serif; }
 
+h2 {
+  color: black;
+  border: solid black 0.001em;
+  margin: 1em 8em;
+  text-align: center;
+  font-family: 'Play', sans-serif;
+  font-size: 1.5em; }
+
+h3 {
+  background: #d3d3d354;
+  border: solid #acacac30 0.0005em;
+  box-shadow: black 1px 1px 7px;
+  color: white;
+  background-color: black;
+  padding: 0.5%;
+  text-align: center;
+  margin: 10% 28%;
+  font-family: 'Fahkwang', sans-serif; }
+
+h4 {
+  margin: 0 auto;
+  font-size: 2.5em;
+  font-family: 'Cabin Condensed', sans-serif; }
+
+p {
+  font-family: 'Didact Gothic', sans-serif; }
+
 img {
-  margin: 0; }
+  margin: 0 auto; }
 
 .grid-1 {
   grid-template-columns: repeat(4, 1);
@@ -131,22 +168,16 @@ main {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
 
+.history {
+  margin: 1em 13em; }
+
 .wrapper {
-  margin: 2em; }
+  margin: 2em;
+  background: beige; }
 
 .activities {
   border: solid rgba(211, 211, 211, 0.68) 0.001em;
   padding: 1em; }
-
-.camp-heading {
-  background: #d3d3d354;
-  border: solid #acacac30 0.0005em;
-  box-shadow: black 1px 1px 7px;
-  text-align: center;
-  font-size: 3em;
-  margin-bottom: 0.2em;
-  padding: 0.2em;
-  font-family: 'Assistant', sans-serif; }
 
 .container {
   display: grid;
@@ -156,7 +187,8 @@ main {
 
 .grid-act {
   padding: 15px;
-  max-width: 100%; }
+  max-width: 100%;
+  text-align: left; }
 
 .polaroid-site-1 {
   width: 100%;

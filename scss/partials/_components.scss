@@ -54,8 +54,13 @@
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
 
+.history {
+    margin: 1em 13em;
+}
+
 .wrapper {
     margin: 2em;
+    background: beige;
 }
 
 .activities {
@@ -63,16 +68,16 @@
     padding: 1em;
 }
 
-.camp-heading {
-    background: #d3d3d354;
-    border: solid #acacac30 0.0005em;
-    box-shadow: black 1px 1px 7px;
-    text-align: center;
-    font-size: 3em;
-    margin-bottom: 0.2em;
-    padding: 0.2em;
-    font-family: 'Assistant', sans-serif;
-}
+// .camp-heading {
+//     background: #d3d3d354;
+//     border: solid #acacac30 0.0005em;
+//     box-shadow: black 1px 1px 7px;
+//     color: white;
+//     background-color: black;
+//     padding: 0.5%;
+//     text-align: center;
+//     margin: 10% 28%;
+// }
 
 .container {
     display: grid;
@@ -85,6 +90,8 @@
 .grid-act {
     padding: 15px;
     max-width: 100%;
+
+    text-align: left;
 }
 
 .polaroid-site-1 {
