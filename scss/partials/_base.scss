@@ -51,6 +51,53 @@ body {
     height: 60vh;
 }
 
+.parallax-climbing {
+    background-image: url(../images/climb_bgimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    margin: 0;
+    padding: 2em;
+    height: 60vh;
+}
+
+.parallax-canoeing {
+    background-image: url(../images/canoe_bgimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    margin: 0;
+    padding: 2em;
+    height: 60vh;
+}
+
+.parallax-fishing {
+    background-image: url(../images/fish_bgimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    margin: 0;
+    padding: 2em;
+    height: 60vh;
+}
+
+.parallax-hunting {
+    background-image: url(../images/hunt_bgimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    margin: 0;
+    padding: 2em;
+    height: 60vh;
+}
 // NAV BAR
 // ---------
 nav {
