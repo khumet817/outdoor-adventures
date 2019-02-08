@@ -11,6 +11,14 @@ body {
 img {
   vertical-align: middle; }
 
+.body-contact {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: beige;
+  background: url(../images/contact_form-bgimg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 .parallax-header {
   background-image: url(../images/home_1.jpg);
   background-size: cover;
@@ -164,6 +172,34 @@ h4 {
 p {
   font-family: 'Didact Gothic', sans-serif; }
 
+/* Start of my button style */
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s; }
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s; }
+
+.button1:hover span {
+  padding-right: 25px; }
+
+.button1:hover span::after {
+  opacity: 1;
+  right: 0; }
+
+/* End of my button style */
+footer {
+  height: 5vh;
+  background-color: #333;
+  text-align: center; }
+
 .grid-1 {
   grid-template-columns: repeat(4, 1);
   grid-template-rows: auto auto 120px;
@@ -285,5 +321,154 @@ main {
 
 .item2 {
   text-align: left; }
+
+.button1 {
+  border: none;
+  background-color: darkolivegreen;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: 'Didact Gothic', sans-serif; }
+
+.gallery {
+  max-width: 1000px;
+  margin: 2% 15%; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px; }
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px; }
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle; }
+
+/* =============== */
+/* FORM SECTION */
+/* =============== */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px; }
+
+.icon {
+  padding: 10px;
+  background: rgba(7, 167, 7, 0.898);
+  color: white;
+  min-width: 50px;
+  text-align: center; }
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none; }
+
+.input-field:focus {
+  border: 2px solid rgba(7, 167, 7, 0.898); }
+
+.btn {
+  background: rgba(7, 167, 7, 0.898);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9; }
+
+.btn:hover {
+  opacity: 1; }
+
+form {
+  max-width: 33%;
+  margin: 3% 5% 5% 60%; }
+
+textarea {
+  height: 220px;
+  width: relative; }
+
+/* Social media section */
+/* ------------------------ */
+.fab:hover {
+  opacity: 0.7; }
+
+.fa-facebook {
+  background: rgba(110, 115, 124, 0.72);
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 14%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px; }
+
+.fa-twitter {
+  background: rgba(110, 115, 124, 0.72);
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 14%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px; }
+
+.fa-google {
+  background: rgba(110, 115, 124, 0.72);
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 14%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px; }
+
+.fa-linkedin {
+  background: rgba(110, 115, 124, 0.72);
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 14%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px; }
+
+.fa-youtube {
+  background: rgba(110, 115, 124, 0.72);
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 14%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px; }
+
+.fa-instagram {
+  background: rgba(110, 115, 124, 0.72);
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 14%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px; }
+
+/* Responsiveness for gallery */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%; } }
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */

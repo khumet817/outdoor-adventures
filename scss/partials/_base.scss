@@ -1,5 +1,5 @@
 // ========================
-// Base Styles
+// Base Styles 
 // ========================
 
 * {
@@ -14,6 +14,20 @@ body {
 img {
     vertical-align: middle;
 }
+
+// ===============================
+// Base Styles for contact.html
+// ===============================
+.body-contact {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+
+    background: url(../images/contact_form-bgimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 
 // ============================
@@ -105,6 +119,10 @@ img {
 // ==================
 // HEADER SECTION
 // ==================
+
+// ------------
+// INDEX.HTML
+// ------------
 header {
   background: black;
   height: 30vh;
@@ -123,6 +141,9 @@ h1 {
 // NAV BAR SECTION
 // =====================
 
+// -------------------------------------------
+// INDEX.HTML, GALLERY.HTML AND CONTACT.HTML
+// -------------------------------------------
 #navbar {
     overflow: hidden;
     background-color: #333;
@@ -225,6 +246,40 @@ p {
     font-family: 'Didact Gothic', sans-serif;
 }
 
+/* Start of my button style */
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span::after {
+  opacity: 1;
+  right: 0;
+}
+/* End of my button style */
+
 // ===========================
 // FOOTER STYLES SECTION
 // ===========================
+footer {
+    height: 5vh;
+    background-color: #333;
+
+    text-align: center;
+}

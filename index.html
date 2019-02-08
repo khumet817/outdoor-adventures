@@ -7,75 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <script src="main.js"></script>
-
-    <style>
-
-/* Start of my button style */
-        .button1,
-        .button2 {
-  /* border-radius: 4px; */
-  border: none;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 1.5em;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-  font-family: 'Didact Gothic', sans-serif;
-}
-
-.button1 {
-    background-color: darkolivegreen; 
-}
-
-.button2 {
-    background: orangered;
-}
-
-.button1 span,
-.button2 span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button1 span:after,
-.button2 span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button1:hover span,
-.button2:hover span {
-  padding-right: 25px;
-}
-
-.button1:hover span::after,
-.butoon2:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-/* End of my button style */
-
-/* ============================================================================================================ */
-
-    </style>
 </head>
 <body>
-
+    <!-- Start of content -->
     <div class="grid-1 grid-container">
         <div id="home" class="">
             <!-- Start of header -->
             <header>
                 <section>
-                    <h1>Explore The Western Cape</h1>
+                    <h1>
+                        Explore The Western Cape
+                        <i class="fas fa-tram"></i>
+                    </h1>
                 </section>
             </header>
             <!-- End of header -->
@@ -97,15 +40,15 @@
                         <a href="#hunt">Hunting</a>
                     </div>
                 </div>
-                <a href="javascript:(0)">Gallery</a>
-                <a href="javascript:void(0)">Contact</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
             </nav>
             <!-- End of nav bar -->
         </div>
         <!-- Start of main -->
         <main class="">
             <!-- Content on the history of the Western Cape -->
-            <section class="history">
+            <section id="about" class="history">
                 <h2>Brief History On The Western Cape</h2>
 
                 <p>
@@ -179,9 +122,9 @@
                                     <button class="button1"><span>Read More </span></button>
                             </a>
 
-                            <a href="">
+                            <!-- <a href="">
                                     <button class="button2"><span>Gallery </span></button>
-                            </a>
+                            </a> -->
                         </div>
                     </div>
 
@@ -224,13 +167,11 @@
                             </p>
                         </div>
                         <div class="grid-act item3">
-                            <a href="http://www.capetown.gov.za/Family%20and%20home/See-all-city-facilities/Our-recreational-facilities/Resorts/Soetwater%20Resort">
-                                <button>
-                                    Read more
-                                </button>
+                            <a
+                                href="">
+                                <button class="button1"><span>Read More </span></button>
                             </a>
                         </div>
-                        <div class="grid-act item4"></div>
                     </div>
 
                     <br>
@@ -263,11 +204,10 @@
                             </p>
                         </div>
                         <div class="grid-act item3">
-                            <a href="https://www.sa-venues.com/attractionswc/tweede-tol.php">
-                                <button>Read more</button>
+                            <a href="">
+                                <button class="button1"><span>Read More </span></button>
                             </a>
                         </div>
-                        <div class="grid-act item4"></div>
                     </div>
 
                     <br>
@@ -302,8 +242,8 @@
 
                         </div>
                         <div class="grid-act item3">
-                            <a href="https://www.capenature.co.za/reserves/grootvadersbosch-nature-reserve/">
-                                <button>Read more</button>
+                            <a href="">
+                                <button class="button1"><span>Read More </span></button>
                             </a>
                         </div>
                         <div class="grid-act item4"></div>
@@ -370,8 +310,8 @@
                                 </p>
                             </div>
                             <div class="grid-act item3">
-                                <a href="https://hiketablemountain.co.za/platteklip-gorge/">
-                                    <button>Read more</button>
+                                <a href="">
+                                    <button class="button1"><span>Read More </span></button>
                                 </a>
                             </div>
                         </div>
@@ -402,11 +342,10 @@
                                 </p>
                             </div>
                             <div class="grid-act item3">
-                                <a href="https://bbqboy.net/essential-must-hike-cape-town-lions-head/">
-                                    <button>Read more</button>
+                                <a href="">
+                                    <button class="button1"><span>Read More </span></button>
                                 </a>
                             </div>
-                            <div class="grid-act item4"></div>
                         </div>
 
                         <br>
@@ -440,8 +379,8 @@
                                 </p>
                             </div>
                             <div class="grid-act item3">
-                                <a href="http://www.footprint.co.za/swellendam.htm">
-                                    <button>Read more</button>
+                                <a href="">
+                                    <button class="button1"><span>Read More </span></button>
                                 </a>
                             </div>
                         </div>
@@ -481,7 +420,7 @@
                             </div>
                             <div class="grid-act item3">
                                 <a href="">
-                                    <button>Read more</button>
+                                    <button class="button1"><span>Read More </span></button>
                                 </a>
                             </div>
                         </div>
@@ -511,7 +450,7 @@
                             </div>
                             <div class="grid-act item3">
                                 <a href="">
-                                    <button>Read more</button>
+                                    <button class="button1"><span>Read More </span></button>
                                 </a>
                             </div>
                         </div>
@@ -546,8 +485,8 @@
                                 </p>
                             </div>
                             <div class="grid-act item3">
-                                <a href="https://www.tripadvisor.co.za/Attraction_Review-g1722390-d13368052-Reviews-Atlantic_Outlook-Cape_Town_Western_Cape.html">
-                                    <button>Read more</button>
+                                <a href="">
+                                    <button class="button1"><span>Read More </span></button>
                                 </a>
                             </div>
                         </div>
@@ -576,8 +515,8 @@
                                 </p>
                             </div>
                             <div class="grid-act item3">
-                                <a href="https://www.tripadvisor.co.za/Attraction_Review-g312663-d1828837-Reviews-Walker_Bay_Adventures-Hermanus_Overstrand_Overberg_District_Western_Cape.html">
-                                    <button>Read more</button>
+                                <a href="">
+                                    <button class="button1"><span>Read More </span></button>
                                 </a>
                             </div>
                         </div>
@@ -617,8 +556,8 @@
                                 </p>
                             </div>
                             <div class="grid-act item3">
-                                <a href="http://muizenberg.info/places-to-visit/kalk-bay">
-                                    <button>Read more</button>
+                                <a href="">
+                                    <button class="button1"><span>Read More </span></button>
                                 </a>
                             </div>
                         </div>
@@ -639,8 +578,8 @@
                                 </p>
                             </div>
                             <div class="grid-act item3">
-                                <a href="http://muizenberg.info/places-to-visit/zandvlei-marina-da-gama">
-                                    <button>Read more</button>
+                                <a href="">
+                                    <button class="button1"><span>Read More </span></button>
                                 </a>
                             </div>
                         </div>
@@ -692,7 +631,7 @@
                             </div>
                             <div class="grid-act item3">
                                 <a href="">
-                                    <button>Read more</button>
+                                    <button class="button1"><span>Read More </span></button>
                                 </a>
                             </div>
                         </div>
@@ -705,11 +644,13 @@
         <!-- End of main -->
 
         <!-- Start of footer -->
-        <!-- <footer>
-
-        </footer> -->
+        <footer>
+            <i class="far fa-copyright"></i>
+            Tabile Khume 2019
+        </footer>
         <!-- End of footer -->
     </div>
+    <!-- End of content -->
     
     <!-- Start of script -->
     <script>
