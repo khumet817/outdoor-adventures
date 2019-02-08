@@ -7,37 +7,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <script src="main.js"></script>
+
+    <style>
+
+/* Start of my button style */
+        .button1,
+        .button2 {
+  /* border-radius: 4px; */
+  border: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 1.5em;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.button1 {
+    background-color: darkolivegreen; 
+}
+
+.button2 {
+    background: orangered;
+}
+
+.button1 span,
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after,
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span,
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span::after,
+.butoon2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* End of my button style */
+
+/* ============================================================================================================ */
+
+    </style>
 </head>
 <body>
 
     <div class="grid-1 grid-container">
-        <div id="home" class="main-header parallax-header">
+        <div id="home" class="">
             <!-- Start of header -->
             <header>
-                <nav class="topnav">
-                    <a href="#home">Home</a>
-                    <div href="#" class="dropdown">
-                        <button class="dropbtn">Activities
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="#camp">Camping</a>
-                            <a href="#hike">Hiking</a>
-                            <a href="#climb">Climbing</a>
-                            <a href="#canoe">Canoeing</a>
-                            <a href="#fish">Fishing</a>
-                            <a href="#hunt">Hunting</a>
-                        </div>
-                    </div>
-                    <a href="#">Gallery</a>
-                    <a href="#">Contact</a>
-                </nav>
-                
                 <section>
                     <h1>Explore The Western Cape</h1>
                 </section>
             </header>
             <!-- End of header -->
+            
+            <!-- Start of nav bar -->
+            <nav id="navbar">
+                <a class="active" href="javascript:void(0)">Home</a>
+                <a href="javascript:void(0) #about">About</a>
+                <div href="javascript:(0)" class="subnav">
+                    <button class="subnavbtn">Activities
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="subnav-content">
+                        <a href="#camp">Camping</a>
+                        <a href="#hike">Hiking</a>
+                        <a href="#climb">Climbing</a>
+                        <a href="#canoe">Canoeing</a>
+                        <a href="#fish">Fishing</a>
+                        <a href="#hunt">Hunting</a>
+                    </div>
+                </div>
+                <a href="javascript:(0)">Gallery</a>
+                <a href="javascript:void(0)">Contact</a>
+            </nav>
+            <!-- End of nav bar -->
         </div>
         <!-- Start of main -->
         <main class="">
@@ -113,10 +176,13 @@
                         </div>
                         <div class="grid-act item3">
                             <a href="https://www.safarinow.com/go/rivergoosecampsite?source=8263&gclid=CjwKCAiA4t_iBRApEiwAn-vt-zmS5rz-_rZBizFpWUzOIGjWX0EP7Wo6jokzjKDf5vEBwphek7NMkRoCoKMQAvD_BwE&gclsrc=aw.ds">
-                                <button>Read more</button>
+                                    <button class="button1"><span>Read More </span></button>
+                            </a>
+
+                            <a href="">
+                                    <button class="button2"><span>Gallery </span></button>
                             </a>
                         </div>
-                        <div class="grid-act item4"></div>
                     </div>
 
                     <br>
@@ -308,7 +374,6 @@
                                     <button>Read more</button>
                                 </a>
                             </div>
-                            <div class="grid-act item4"></div>
                         </div>
 
                         <br>
@@ -379,7 +444,6 @@
                                     <button>Read more</button>
                                 </a>
                             </div>
-                            <div class="grid-act item4"></div>
                         </div>
                     </article>
                 </div>
@@ -420,7 +484,6 @@
                                     <button>Read more</button>
                                 </a>
                             </div>
-                            <div class="grid-act item4"></div>
                         </div>
 
                         <br>
@@ -451,7 +514,6 @@
                                     <button>Read more</button>
                                 </a>
                             </div>
-                            <div class="grid-act item4"></div>
                         </div>
                     </article>
                 </div>
@@ -488,7 +550,6 @@
                                     <button>Read more</button>
                                 </a>
                             </div>
-                            <div class="grid-act item4"></div>
                         </div>
 
                         <br>
@@ -519,7 +580,6 @@
                                     <button>Read more</button>
                                 </a>
                             </div>
-                            <div class="grid-act item4"></div>
                         </div>
                     </article>
                 </div>
@@ -553,22 +613,6 @@
                                         By 1795 Kalk Bay was a flourishing village. Before long, whaling was added to the many activities. This lasted until
                                         the middle of the nineteenth century. In 1883 the railway arrived in Kalk Bay, and in 1913 the much needed breakwater
                                         project started. It was completed in 1919.
-                                        
-                                        Kalk Bay lies between the ocean and sharply rising mountainous heights that are buttressed by crags of grey sandstone.
-                                        A literal translation from the Dutch/Afrikaans name “Kalkbaai” is “Lime Bay”. Many of the surrounding caves were formed
-                                        below the water table, where water chemically weakened the structure of the sandstone and streams bore the loosened
-                                        grain of sand away.
-                                        
-                                        The railway from the central business district of Cape Town to Simon’s Town passes through Kalk Bay and in some places
-                                        the line is only metres from the water’s edge.
-                                        
-                                        Many famous caves (with names such as ‘Ronan’s Well’, after the Walter Scott novel St. Ronan’s Well, and ‘Free Drinks
-                                        Saloon’) are located in the mountains above the village. They are of importance to spaeleologists because they have
-                                        formed in sandstone. Large cave systems are not often found in this type of chemically unreactive rock.
-                                        
-                                        Kalk Bay is also home to the famous surf spot named “Kalk Bay Reef”. This is renowned for heavy barrels and the
-                                        associated shallow reef. It is best surfed on a big south-easterly swell or a north west wind. In smaller swells low
-                                        tide makes for better barrels.
                                     </p>
                                 </p>
                             </div>
@@ -577,7 +621,6 @@
                                     <button>Read more</button>
                                 </a>
                             </div>
-                            <div class="grid-act item4"></div>
                         </div>
 
                         <br>
@@ -600,7 +643,6 @@
                                     <button>Read more</button>
                                 </a>
                             </div>
-                            <div class="grid-act item4"></div>
                         </div>
                     </article>
                 </div>
@@ -646,11 +688,6 @@
                                         the beautiful Cape winelands, we offer wine tasting tours and other activities that truly showcase the beauty of the
                                         Western Cape. Other activities in the area include exhilarating experiences such as shark cage diving.
                                     </p>
-                                    
-                                    <p>
-                                        *Please note that George Airport does not allow importation of firearms. The closest airport to this area that does
-                                        allow rifle importation is Port Elizabeth Airport, in the Eastern Cape.
-                                    </p>
                                 </p>
                             </div>
                             <div class="grid-act item3">
@@ -658,7 +695,6 @@
                                     <button>Read more</button>
                                 </a>
                             </div>
-                            <div class="grid-act item4"></div>
                         </div>
 
                         <br>
@@ -667,6 +703,7 @@
             <!-- End of hunting section -->
         </main>
         <!-- End of main -->
+
         <!-- Start of footer -->
         <!-- <footer>
 
@@ -674,5 +711,21 @@
         <!-- End of footer -->
     </div>
     
+    <!-- Start of script -->
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+    <!-- End of script -->
 </body>
 </html>
