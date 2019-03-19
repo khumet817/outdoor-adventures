@@ -1,1 +1,294 @@
 // Classes & IDs
+
+// Dropdown Nav Bar
+#navbar {
+    background: #fffffff2;
+    border-bottom: 1px solid #80808038;
+    width: 100%;
+    top: -50px;
+    transition: top 0.35s;
+    position: fixed;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        float: right;
+    }
+
+    li {
+        list-style-type: none;
+        display: inline;
+    }
+
+    a {
+        float: left;
+        display: block;
+        color: #585757;
+        text-align: center;
+        padding: 1em;
+        text-decoration: none;
+
+        :hover {
+            background: #008d05;
+            border: solid 1px grey;
+            color: white;
+            transition: ease 0.3s;
+        }
+    }
+}
+
+// Home Section
+.home {
+    grid-area: header;
+    background: url(../img/home-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 44%;
+    height: 50vh;
+}
+
+// About Section
+.imgAbout {
+    float: left;
+    padding-top: 25px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+.provinceHistory {
+    margin: 0;
+    padding: 100px 250px;
+}
+
+// Start of Styles for Activity and Sites
+
+/* Activity Section Intro */
+.text-over-bg {
+    background-color: rgba(0, 0, 0, 0.52);
+    color: white;
+    border: 3px solid #123800bd;
+    z-index: 2;
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+// Site Cards
+.card-img-top {
+    background: darkslategrey;
+    height: 250px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Activity: Camp section */
+.campfire {
+    background: url(../img/activity_hero/campfire-animated-gif-1.gif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+}
+
+/* Activity: Hike section */
+.hiking-man {
+    background: url(../img/activity_hero/hiking-man.gif);
+    background-size: cover;
+    background-position-y: 35%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+}
+
+/* .card-img-top {
+    background: url();
+    height: 180px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+} */
+
+/* Activity: Climb section */
+.mountain-climb {
+    background: url(../img/activities/climb_bgimg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+}
+
+/* .card-img-top {
+    background: url();
+    height: 180px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+} */
+
+/* Activity: Canoe section */
+.people-kayaking {
+    background: url(../img/activity_hero/kayaking-lg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+}
+
+/* .card-img-top {
+    background: url();
+    height: 180px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+} */
+
+/* Activity: Fishing section */
+.fishing-img {
+    background: url(../img/activity_hero/man-fishing.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+}
+
+/* .card-img-top {
+    background: url();
+    height: 180px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+} */
+
+/* Activity: Hunting section */
+.gun-and-animal {
+    background: url(../img/activities/hunt_bgimg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+}
+
+/* .card-img-top {
+    background: url();
+    height: 180px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+} */
+
+
+// End of Styles for Activity and Sites
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* Nav Bar for other pages */
+.other-navbar {
+    background: #fffffff2;
+    border-bottom: 1px solid #80808038;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+
+    a {
+        float: left;
+        display: block;
+        color: #585757;
+        text-align: center;
+        padding: 1em;
+        text-decoration: none;
+
+        a:hover {
+            background: #008d05;
+            border: solid 1px grey;
+            color: white;
+            transition: ease 0.3s;
+        }
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        float: right;
+    }
+
+    li {
+        list-style-type: none;
+        display: inline;
+    }
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ======= */
+/* GALLERY */
+/* ======= */
+
+.gallery {
+    max-width: 1000px;
+    margin: 2% 15%;
+}
+  
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+.column {
+    flex: 24%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+// Activity
+.activity-back-links {
+    padding: 25px;
+    margin: 0;
+
+    color: white;
+    background-color: green;
+    text-align: center;
+}
+
+.camp-bgimg {
+    background: url(../img/activities/camp_bgimg.jpg);
+    background-size: cover;
+}
+
+.hike-bgimg {
+    background: url(../img/activities/hike_bgimg.jpg);
+    background-size: cover;
+}
+
+.climb-bgimg {
+    background: url(../img/activities/climb_bgimg.jpg);
+    background-size: cover;
+}
+
+.canoe-bgimg {
+    background: url(../img/activities/canoe_bgimg.jpg);
+    background-size: cover;
+}
+
+.fish-bgimg {
+    background: url(../img/activities/fish_bgimg.jpg);
+    background-size: cover;
+}
+
+.hunt-bgimg {
+    background: url(../img/activities/hunt_bgimg.jpg);
+    background-size: cover;
+}
