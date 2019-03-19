@@ -53,6 +53,16 @@ main {
     height: auto;
 }
 
+form {
+    max-width: 33%;
+    margin: 3% 5% 5% 60%;
+}
+
+textarea {
+    height: 220px;
+    width: relative;
+}
+
 footer {
     background: #123800;
     color: white;
