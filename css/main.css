@@ -1,5 +1,4 @@
-@import "https://fonts.googleapis.com/css?family=Noto+Sans+SC|Unlock";
-@import url("https://fonts.googleapis.com/css?family=Assistant|Cabin+Condensed|Didact+Gothic|Fahkwang|Play");
+@import url("https://fonts.googleapis.com/css?family=Poppins|Ubuntu:300|Work+Sans");
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 * {
   box-sizing: border-box;
@@ -173,13 +172,13 @@ p {
   font-family: 'Didact Gothic', sans-serif; }
 
 /* Start of my button style */
-.button1 span {
+.button-site span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s; }
 
-.button1 span:after {
+.button-site span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -187,10 +186,10 @@ p {
   right: -20px;
   transition: 0.5s; }
 
-.button1:hover span {
+.button-site:hover span {
   padding-right: 25px; }
 
-.button1:hover span::after {
+.button-site:hover span::after {
   opacity: 1;
   right: 0; }
 
@@ -199,29 +198,6 @@ footer {
   height: 5vh;
   background-color: #333;
   text-align: center; }
-
-.grid-1 {
-  grid-template-columns: repeat(4, 1);
-  grid-template-rows: auto auto 120px;
-  grid-template-areas: "header header  header" "main   main    main" "footer footer  footer"; }
-
-.main-header {
-  grid-area: header; }
-
-main {
-  grid-area: main; }
-
-.item1 {
-  grid-column: 1;
-  grid-row: 1 / span 2; }
-
-.item2 {
-  grid-column: 2 / span 2;
-  grid-row: 1; }
-
-.item3 {
-  grid-column: 2 / span 2;
-  grid-row: 2; }
 
 .subnav {
   float: left;
@@ -460,6 +436,29 @@ textarea {
   text-align: center;
   text-decoration: none;
   margin: 5px 2px; }
+
+.grid-1 {
+  grid-template-columns: repeat(4, 1);
+  grid-template-rows: auto auto 120px;
+  grid-template-areas: "header header  header" "main   main    main" "footer footer  footer"; }
+
+.main-header {
+  grid-area: header; }
+
+main {
+  grid-area: main; }
+
+.item1 {
+  grid-column: 1;
+  grid-row: 1 / span 2; }
+
+.item2 {
+  grid-column: 2 / span 2;
+  grid-row: 1; }
+
+.item3 {
+  grid-column: 2 / span 2;
+  grid-row: 2; }
 
 /* Responsiveness for gallery */
 @media screen and (max-width: 800px) {

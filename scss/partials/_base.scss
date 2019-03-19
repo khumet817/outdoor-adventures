@@ -248,14 +248,14 @@ p {
 
 /* Start of my button style */
 
-.button1 span {
+.button-site span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.button1 span:after {
+.button-site span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -264,11 +264,11 @@ p {
   transition: 0.5s;
 }
 
-.button1:hover span {
+.button-site:hover span {
   padding-right: 25px;
 }
 
-.button1:hover span::after {
+.button-site:hover span::after {
   opacity: 1;
   right: 0;
 }

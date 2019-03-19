@@ -4,20 +4,19 @@
 
 @import 'partials/variables',
         'partials/base',
-        'partials/layout',
         'partials/components',
+        'partials/styles-extent',
+        'partials/layout',
         'partials/responsiveness';
 
 // ==================
-// Font library
+// Font Imports
 // ==================
 
-@import 'https://fonts.googleapis.com/css?family=Noto+Sans+SC|Unlock';
-@import url('https://fonts.googleapis.com/css?family=Assistant|Cabin+Condensed|Didact+Gothic|Fahkwang|Play');
-
+@import url('https://fonts.googleapis.com/css?family=Poppins|Ubuntu:300|Work+Sans');
 
 // =================
-// Icon library
+// Icons Imports
 // =================
 
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
