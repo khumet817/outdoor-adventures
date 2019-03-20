@@ -3,8 +3,8 @@
 // =========================================
 
 @import 'partials/variables',
-        'partials/base',
         'partials/components',
+        'partials/base',
         'partials/styles-extent',
         'partials/layout',
         'partials/responsiveness';
@@ -19,4 +19,4 @@
 // Icons Imports
 // =================
 
-@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');

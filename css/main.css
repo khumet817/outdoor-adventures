@@ -1,341 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins|Ubuntu:300|Work+Sans");
-@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
-* {
-  box-sizing: border-box;
-  scroll-behavior: smooth; }
-
-body {
-  margin: 0 auto; }
-
-img {
-  vertical-align: middle; }
-
-.body-contact {
-  margin: 0 auto;
-  font-family: Arial, Helvetica, sans-serif;
-  color: beige;
-  background: url(../images/contact_form-bgimg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.parallax-header {
-  background-image: url(../images/home_1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  margin: 0;
-  height: 80vh; }
-
-.parallax-camping {
-  background-image: url(../images/camp_bgimg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  margin: 0;
-  padding: 2em;
-  height: 60vh; }
-
-.parallax-hiking {
-  background-image: url(../images/hike_bgimg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  margin: 0;
-  padding: 2em;
-  height: 60vh; }
-
-.parallax-climbing {
-  background-image: url(../images/climb_bgimg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  margin: 0;
-  padding: 2em;
-  height: 60vh; }
-
-.parallax-canoeing {
-  background-image: url(../images/canoe_bgimg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  margin: 0;
-  padding: 2em;
-  height: 60vh; }
-
-.parallax-fishing {
-  background-image: url(../images/fish_bgimg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  margin: 0;
-  padding: 2em;
-  height: 60vh; }
-
-.parallax-hunting {
-  background-image: url(../images/hunt_bgimg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  margin: 0;
-  padding: 2em;
-  height: 60vh; }
-
-header {
-  background: black;
-  height: 30vh; }
-
-h1 {
-  color: white;
-  padding: 3%;
-  text-align: center;
-  margin: 0;
-  font-family: 'Fahkwang', sans-serif;
-  font-size: 3em; }
-
-#navbar {
-  overflow: hidden;
-  background-color: #333; }
-  #navbar a {
-    padding: 0.9em 1em;
-    font-size: 1.1em;
-    font-family: 'Fahkwang', sans-serif;
-    text-align: center;
-    color: beige;
-    text-decoration: none;
-    float: left; }
-    #navbar a:link {
-      color: white;
-      text-decoration: none; }
-    #navbar a:hover {
-      background: #ffa824;
-      color: black; }
-    #navbar a:active {
-      color: orangered; }
-
-#navbar a:hover,
-.subnav:hover .subnavbtn {
-  background: #ffa824; }
-
-.subnav-content {
-  display: none;
-  position: absolute;
-  left: 0;
-  background-color: #626161;
-  color: black;
-  width: 100%;
-  z-index: 1; }
-  .subnav-content a {
-    float: left;
-    color: black;
-    text-decoration: none; }
-    .subnav-content a:hover {
-      color: black; }
-
-.subnav:hover .subnav-content {
-  display: block; }
-
-img {
-  margin: 0 auto; }
-
-h2 {
-  color: black;
-  border: solid black 0.001em;
-  margin: 1em 8em;
-  text-align: center;
-  font-family: 'Play', sans-serif;
-  font-size: 1.5em; }
-
-h3 {
-  background: #d3d3d354;
-  border: solid #acacac30 0.0005em;
-  box-shadow: black 1px 1px 7px;
-  color: white;
-  background-color: black;
-  padding: 0.5%;
-  text-align: center;
-  margin: 10% 28%;
-  font-family: 'Fahkwang', sans-serif; }
-
-h4 {
-  margin: 0 auto;
-  font-size: 2.5em;
-  font-family: 'Cabin Condensed', sans-serif; }
-
-p {
-  font-family: 'Didact Gothic', sans-serif; }
-
-/* Start of my button style */
-.button-site span {
-  cursor: pointer;
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+.btn {
   display: inline-block;
-  position: relative;
-  transition: 0.5s; }
-
-.button-site span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s; }
-
-.button-site:hover span {
-  padding-right: 25px; }
-
-.button-site:hover span::after {
-  opacity: 1;
-  right: 0; }
-
-/* End of my button style */
-footer {
-  height: 5vh;
-  background-color: #333;
-  text-align: center; }
-
-.subnav {
-  float: left;
-  overflow: hidden; }
-
-.subnav .subnavbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  background: rgba(7, 167, 7, 0.898);
   color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0; }
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%; }
-
-.sticky + .content {
-  padding-top: 60px; }
-
-.main-header {
-  margin: 0 auto; }
-.main-heading {
-  font-size: 1em;
-  color: white; }
-
-.container-nav {
-  margin: 1.25em;
-  width: auto;
-  position: sticky; }
-
-.dropdown {
-  margin: 0 auto;
-  font-size: 1.1em;
-  font-family: 'Source Sans Pro', sans-serif;
-  text-align: center;
-  color: beige;
-  text-decoration: none;
-  float: left;
-  overflow: hidden; }
-
-.dropbtn {
-  padding: 0.9em 1em;
-  font-size: 1em;
-  font-family: 'Fahkwang', sans-serif;
-  text-align: center;
+  padding: 15px 20px;
   border: none;
-  outline: none;
-  color: white;
-  background-color: black;
-  margin: 0; }
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
-
-.history {
-  margin: 1em 13em;
-  height: auto; }
-
-.wrapper {
-  margin: 2em;
-  background: beige; }
-
-.wrapper2 {
-  margin: 8em;
-  background: beige; }
-
-.activities {
-  border: solid rgba(211, 211, 211, 0.68) 0.001em;
-  padding: 1em; }
-
-.container {
-  display: grid;
-  grid-gap: 5px;
-  text-align: center;
-  padding: 10px 20px; }
-
-.grid-act {
-  padding: 15px;
-  max-width: 100%;
-  text-align: left; }
-
-.polaroid-site-1 {
-  width: 100%;
-  background-color: #969133b0;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-
-.item1 {
-  padding: 0; }
-
-.item2 {
-  text-align: left; }
-
-.button1 {
-  border: none;
-  background-color: darkolivegreen;
-  color: white;
-  text-align: center;
-  font-size: 1.5em;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
   cursor: pointer;
-  margin: 5px;
-  font-family: 'Didact Gothic', sans-serif; }
-
-.gallery {
-  max-width: 1000px;
-  margin: 2% 15%; }
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px; }
-
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px; }
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle; }
-
-/* =============== */
-/* FORM SECTION */
-/* =============== */
-.input-container {
-  display: flex;
   width: 100%;
-  margin-bottom: 15px; }
+  opacity: 0.9; }
+  .btn :hover {
+    opacity: 1; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #123800bd;
+  border-color: #123800bd; }
 
 .icon {
   padding: 10px;
@@ -344,36 +29,6 @@ footer {
   min-width: 50px;
   text-align: center; }
 
-.input-field {
-  width: 100%;
-  padding: 10px;
-  outline: none; }
-
-.input-field:focus {
-  border: 2px solid rgba(7, 167, 7, 0.898); }
-
-.btn {
-  background: rgba(7, 167, 7, 0.898);
-  color: white;
-  padding: 15px 20px;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9; }
-
-.btn:hover {
-  opacity: 1; }
-
-form {
-  max-width: 33%;
-  margin: 3% 5% 5% 60%; }
-
-textarea {
-  height: 220px;
-  width: relative; }
-
-/* Social media section */
-/* ------------------------ */
 .fab:hover {
   opacity: 0.7; }
 
@@ -437,28 +92,361 @@ textarea {
   text-decoration: none;
   margin: 5px 2px; }
 
-.grid-1 {
-  grid-template-columns: repeat(4, 1);
-  grid-template-rows: auto auto 120px;
-  grid-template-areas: "header header  header" "main   main    main" "footer footer  footer"; }
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box; }
 
-.main-header {
-  grid-area: header; }
+body {
+  margin: 0 auto;
+  background: #8080801a; }
+
+header {
+  text-align: center;
+  font-size: 10px;
+  background: #123800bd;
+  padding: 10px;
+  color: whitesmoke; }
+
+nav {
+  width: 100%;
+  height: 42px;
+  background: #123800bd;
+  overflow: hidden; }
+  nav a {
+    padding: 12px 0;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    width: 25%; }
+    nav a :hover {
+      background: white;
+      color: #123800bd; }
+  nav ul {
+    margin: 0;
+    padding: 0; }
+  nav li {
+    list-style-type: none;
+    display: inline; }
 
 main {
-  grid-area: main; }
+  height: auto; }
 
-.item1 {
-  grid-column: 1;
-  grid-row: 1 / span 2; }
+form {
+  max-width: 33%;
+  margin: 3% 5% 5% 60%; }
 
-.item2 {
-  grid-column: 2 / span 2;
-  grid-row: 1; }
+textarea {
+  height: 220px;
+  width: relative; }
 
-.item3 {
-  grid-column: 2 / span 2;
-  grid-row: 2; }
+footer {
+  background: #123800;
+  color: white;
+  text-align: center;
+  height: auto;
+  padding: 20px; }
+
++
+#navbar {
+  background: #fffffff2;
+  border-bottom: 1px solid #80808038;
+  width: 100%;
+  top: -50px;
+  transition: top 0.35s;
+  position: fixed; }
+  +
+  #navbar ul {
+    margin: 0;
+    padding: 0;
+    float: right; }
+  +
+  #navbar li {
+    list-style-type: none;
+    display: inline; }
+  +
+  #navbar a {
+    float: left;
+    display: block;
+    color: #585757;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none; }
+    +
+    #navbar a :hover {
+      background: #008d05;
+      border: solid 1px grey;
+      color: white;
+      transition: ease 0.3s; }
+
+.home {
+  grid-area: header;
+  background: url(../img/home-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 44%;
+  height: 50vh; }
+
+.imgAbout {
+  float: left;
+  padding-top: 25px;
+  margin-right: 40px;
+  margin-bottom: 10px; }
+
+.provinceHistory {
+  margin: 0;
+  padding: 100px 250px; }
+
+/* Activity Section Intro */
+.text-over-bg {
+  background-color: #00000085;
+  color: white;
+  border: 3px solid #123800bd;
+  z-index: 2;
+  width: 40%;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box; }
+
+.card {
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #00000020;
+  border-radius: .25rem;
+  width: 100%; }
+
+.card-img-top {
+  background: darkslategrey;
+  height: 250px;
+  width: 100%;
+  display: block;
+  box-sizing: border-box; }
+
+.card-body {
+  padding: 20px; }
+
+/* Activity: Camp section */
+.campfire {
+  background: url(../img/activity_hero/campfire-animated-gif-1.gif);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50vh; }
+
+/* Activity: Hike section */
+.hiking-man {
+  background: url(../img/activity_hero/hiking-man.gif);
+  background-size: cover;
+  background-position-y: 35%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh; }
+
+/* .card-img-top {
+    background: url();
+    height: 180px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+} */
+/* Activity: Climb section */
+.mountain-climb {
+  background: url(../img/activities/climb_bgimg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh; }
+
+/* .card-img-top {
+    background: url();
+    height: 180px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+} */
+/* Activity: Canoe section */
+.people-kayaking {
+  background: url(../img/activity_hero/kayaking-lg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh; }
+
+/* .card-img-top {
+    background: url();
+    height: 180px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+} */
+/* Activity: Fishing section */
+.fishing-img {
+  background: url(../img/activity_hero/man-fishing.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh; }
+
+/* .card-img-top {
+    background: url();
+    height: 180px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+} */
+/* Activity: Hunting section */
+.gun-and-animal {
+  background: url(../img/activities/hunt_bgimg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh; }
+
+/* .card-img-top {
+    background: url();
+    height: 180px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+} */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* Nav Bar for other pages */
+.other-navbar {
+  background: #fffffff2;
+  border-bottom: 1px solid #80808038;
+  width: 100%;
+  height: 50px;
+  overflow: hidden; }
+  .other-navbar a {
+    float: left;
+    display: block;
+    color: #585757;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none; }
+    .other-navbar a a:hover {
+      background: #008d05;
+      border: solid 1px grey;
+      color: white;
+      transition: ease 0.3s; }
+  .other-navbar ul {
+    margin: 0;
+    padding: 0;
+    float: right; }
+  .other-navbar li {
+    list-style-type: none;
+    display: inline; }
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ======= */
+/* GALLERY */
+/* ======= */
+.gallery {
+  max-width: 1000px;
+  margin: 2% 15%; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px; }
+
+.column {
+  flex: 24%;
+  max-width: 25%;
+  padding: 0 4px; }
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle; }
+
+.activity-back-links {
+  padding: 25px;
+  margin: 0;
+  color: white;
+  background-color: green;
+  text-align: center; }
+
+.camp-bgimg {
+  background: url(../img/activities/camp_bgimg.jpg);
+  background-size: cover; }
+
+.hike-bgimg {
+  background: url(../img/activities/hike_bgimg.jpg);
+  background-size: cover; }
+
+.climb-bgimg {
+  background: url(../img/activities/climb_bgimg.jpg);
+  background-size: cover; }
+
+.canoe-bgimg {
+  background: url(../img/activities/canoe_bgimg.jpg);
+  background-size: cover; }
+
+.fish-bgimg {
+  background: url(../img/activities/fish_bgimg.jpg);
+  background-size: cover; }
+
+.hunt-bgimg {
+  background: url(../img/activities/hunt_bgimg.jpg);
+  background-size: cover; }
+
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+/* =============== */
+/* FORM SECTION */
+/* =============== */
+.body-contact {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: beige;
+  background: url(../img/contact_form-bgimg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px; }
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none; }
+
+.input-field:focus {
+  border: 2px solid rgba(7, 167, 7, 0.898); }
+
+.cards-container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto;
+  padding: 50px 200px; }
+
+.card {
+  display: grid;
+  grid-template-rows: auto auto; }
+
+.activity-options {
+  display: grid;
+  grid-template-rows: auto auto; }
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 0;
+  grid-template-columns: auto auto auto;
+  margin: 0;
+  padding: 50px 0;
+  padding-top: 0; }
+
+.grid-item {
+  text-align: center;
+  height: 50vh;
+  width: 100%; }
 
 /* Responsiveness for gallery */
 @media screen and (max-width: 800px) {
