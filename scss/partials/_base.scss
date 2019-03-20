@@ -15,6 +15,7 @@ header {
     background: #123800bd;
     padding: 10px;
     color: whitesmoke;
+    font-family: $HF-Font;
 }
 
 nav {
@@ -51,6 +52,7 @@ nav {
 
 main {
     height: auto;
+    font-family: $TextFont;
 }
 
 form {
@@ -69,4 +71,10 @@ footer {
     text-align: center;
     height: auto;
     padding: 20px;
+    font-family: $HF-Font;
+}
+
+h3 {
+    font-family: $HeadingFont;
+    font-size: 1.5rem;
 }
