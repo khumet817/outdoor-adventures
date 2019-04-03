@@ -26,4 +26,54 @@
   top: 35%;
   padding: 0 150px; }
 
+@media screen and (max-width: 768px) {
+  .initials {
+    left: 10vw; }
+
+  .navBar {
+    right: 10vw; }
+
+  .title {
+    padding: 0 50px; } }
+@media screen and (max-width: 501px) {
+  .initials {
+    left: 43vw; }
+
+  .navBar {
+    top: 15%;
+    right: 20vw; }
+
+  .title-heading {
+    font-size: 2em; }
+
+  .quote {
+    font-size: 0.9em !important; } }
+@media screen and (max-width: 425px) {
+  .initials {
+    left: 41vw; }
+
+  .navBar {
+    right: 15vw; }
+
+  .title-heading {
+    font-size: 1.5em; }
+
+  .quote {
+    font-size: 0.8em !important; } }
+@media screen and (max-width: 375px) {
+  .initials {
+    left: 40vw; }
+
+  .navBar {
+    right: 10vw; }
+
+  .title {
+    padding: 0; } }
+@media screen and (max-width: 320px) {
+  .initials {
+    left: 37vw; }
+
+  .navBar {
+    right: 6vw; } }
+
 /*# sourceMappingURL=main.css.map */

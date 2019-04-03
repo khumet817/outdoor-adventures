@@ -248,3 +248,128 @@
 //     max-width: 100%;
 //   }
 // }
+
+// Responsive Design
+
+// ===================
+// TABLET - LANDSCAPE
+// ===================
+@media screen and (max-width: 768px) {
+    // --------------------------------------------------
+    // Home Page
+    
+    // WCape "Logo"
+    .initials {
+        left: 10vw;
+    }
+
+    // NavBar Links
+    .navBar {
+        right: 10vw;
+    }
+
+    // Text Section
+    .title {
+        padding: 0 50px;
+    }
+}
+
+// ===================
+// TABLET - POTRAIT
+// ===================
+@media screen  and (max-width: 501px) {
+    // --------------------------------------------------
+    // Home Page
+
+    // WCape "Logo"
+    .initials {
+        left: 43vw;
+    }
+
+    // NavBar Links
+    .navBar {
+        top: 15%;
+        right: 20vw;
+    }
+
+    // Explore The Western Cape 
+    .title-heading {
+        font-size: 2em;
+    }
+
+    // Text Below heading
+    .quote {
+        font-size: .9em!important;
+    }
+}
+
+// ===============
+// MOBILE - LARGE
+// ===============
+@media screen and (max-width:425px) {
+    // --------------------------------------------------
+    // Home Page
+
+    // WCape "Logo"
+    .initials {
+        left: 41vw;
+    }
+
+    // NavBar Links
+    .navBar {
+        right: 15vw;
+    }
+
+    // Explore The Western Cape 
+    .title-heading {
+        font-size: 1.5em;
+    }
+
+    // Text Below heading
+    .quote {
+        font-size: .8em!important;
+    }
+}
+
+// ================
+// MOBILE - MEDIUM
+// ================
+@media screen and (max-width:375px) {
+    // --------------------------------------------------
+    // Home Page
+
+    // WCape "Logo"
+    .initials {
+        left: 40vw;
+    }
+
+    // NavBar Links
+    .navBar {
+        right: 10vw;
+    }
+
+    // Heading and Text Section
+    .title {
+        padding: 0;
+    }
+    // --------------------------------------------------
+}
+
+// ===============
+// MOBILE - SMALL
+// ===============
+@media screen and (max-width:320px) {
+    // --------------------------------------------------
+    // Home Page
+
+    // WCape "Logo"
+    .initials {
+        left: 37vw;
+    }
+
+    // NavBar Links
+    .navBar {
+        right: 6vw;
+    }
+    // --------------------------------------------------
+}
