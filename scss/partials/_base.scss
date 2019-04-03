@@ -1,80 +1,81 @@
 // Base Styles
-* {
-    scroll-behavior: smooth;
-    box-sizing: border-box;
-}
+// * {
+//     scroll-behavior: smooth;
+//     box-sizing: border-box;
+// }
 
-body {
-    margin: 0 auto;
-    background: #8080801a;
-}
+// body {
+//     margin: 0 auto;
+//     background: #8080801a;
+//     text-align: center;
+// }
 
-header {
-    text-align: center;
-    font-size: 10px;
-    background: #123800bd;
-    padding: 10px;
-    color: whitesmoke;
-    font-family: $HF-Font;
-}
+// header {
+//     text-align: center;
+//     font-size: 10px;
+//     background: #123800bd;
+//     padding: 10px;
+//     color: whitesmoke;
+//     font-family: $HF-Font;
+// }
 
-nav {
-    width: 100%;
-    height: 42px;
-    background: #123800bd;
-    overflow: hidden;
+// nav {
+//     width: 100%;
+//     height: 42px;
+//     background: #123800bd;
+//     overflow: hidden;
 
-    a {
-        padding: 12px 0;
-        color: white;
-        font-size: 17px;
-        text-decoration: none;
-        float: left;
-        text-align: center;
-        width: 25%;
+//     a {
+//         padding: 12px 0;
+//         color: white;
+//         font-size: 17px;
+//         text-decoration: none;
+//         float: left;
+//         text-align: center;
+//         width: 25%;
 
-        :hover {
-            background: white;
-            color: #123800bd;
-        }
-    }
+//         :hover {
+//             background: white;
+//             color: #123800bd;
+//         }
+//     }
 
-    ul {
-        margin: 0;
-        padding: 0;
-    }
+//     ul {
+//         margin: 0;
+//         padding: 0;
+//     }
 
-    li {
-        list-style-type: none;
-        display: inline;
-    }
-}
+//     li {
+//         list-style-type: none;
+//         display: inline;
+//     }
+// }
 
-main {
-    height: auto;
-    font-family: $TextFont;
-}
+// main {
+//     height: auto;
+//     font-family: $TextFont;
+// }
 
-form {
-    max-width: 33%;
-    margin: 3% 5% 5% 60%;
-}
+// form {
+//     max-width: 33%;
+//     margin: 3% 5% 5% 60%;
+// }
 
-textarea {
-    height: 220px;
-    width: relative;
-}
+// textarea {
+//     height: 220px;
+//     width: relative;
+// }
 
-footer {
-    background: #123800;
-    color: white;
-    text-align: center;
-    height: auto;
-    padding: 20px;
-    font-family: $HF-Font;
-}
+// footer {
+//     background: #123800;
+//     color: white;
+//     text-align: center;
+//     height: auto;
+//     padding: 20px;
+//     font-family: $HF-Font;
+// }
 
-h3 {
-    font-family: $HeadingFont;
-    font-size: 1.5rem;
-}
+// h3 {
+//     font-family: $HeadingFont;
+//     font-size: 1.5rem;
+// }
