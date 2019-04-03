@@ -6,18 +6,16 @@
 
 // body {
 //     margin: 0 auto;
-//     background: #8080801a;
-//     text-align: center;
 // }
 
-// header {
-//     text-align: center;
-//     font-size: 10px;
-//     background: #123800bd;
-//     padding: 10px;
-//     color: whitesmoke;
-//     font-family: $HF-Font;
-// }
+header {
+    text-align: center;
+    font-size: 10px;
+    background: #28a745;
+    padding: 5px 10px;
+    color: whitesmoke;
+    font-family: $HF-Font;
+}
 
 // nav {
 //     width: 100%;
@@ -66,14 +64,14 @@
 //     width: relative;
 // }
 
-// footer {
-//     background: #123800;
-//     color: white;
-//     text-align: center;
-//     height: auto;
-//     padding: 20px;
-//     font-family: $HF-Font;
-// }
+footer {
+    background: #123800;
+    color: white;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+    font-family: $HF-Font;
+}
 
 // h3 {
 //     font-family: $HeadingFont;

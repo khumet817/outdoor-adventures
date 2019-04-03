@@ -1,5 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins|Ubuntu:300|Work+Sans");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+header {
+  text-align: center;
+  font-size: 10px;
+  background: #28a745;
+  padding: 5px 10px;
+  color: whitesmoke;
+  font-family: "Work Sans", sans-serif; }
+
+footer {
+  background: #123800;
+  color: white;
+  text-align: center;
+  height: auto;
+  padding: 20px;
+  font-family: "Work Sans", sans-serif; }
+
 .home {
   height: 100vh;
   background: url("https://cdn.pixabay.com/photo/2016/10/14/19/21/canyon-1740973_960_720.jpg");
