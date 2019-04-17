@@ -312,6 +312,7 @@
 //     border: 2px solid rgba(7, 167, 7, 0.898);
 // }
 
+// ------------------------
 // HOME COVER PAGE
 .home{
     height: 100vh;
@@ -345,4 +346,30 @@
     position: absolute;
     top: 35%;
     padding: 0 150px;
+}
+
+// ---------------------------
+// HOME PAGE MAIN
+
+.card {
+    width: 100%;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none !important;
+    border-radius: .25rem;
+}
+
+.text-col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 80%;
 }
