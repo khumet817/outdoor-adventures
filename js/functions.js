@@ -1,9 +1,16 @@
-window.onscroll = function() {slideDown()};
+// Button will appear
+window.onscroll = function() {scrollFunction()};
 
-function slideDown() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("navbar").style.top = "0";
-    } else {
-        document.getElementById("navbar").style.top = "-50px";
-    }
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("back-to-top-btn").style.display = "block";
+  } else {
+    document.getElementById("back-to-top-btn").style.display = "none";
+  }
+}
+
+// onclick function
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
