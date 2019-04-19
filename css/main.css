@@ -6,11 +6,11 @@
   bottom: 20px;
   right: 30px;
   z-index: 99;
-  font-size: 18px;
+  font-size: 10px;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 15px;
+  padding: 10px;
   border-radius: 100%; }
 
 .submit-btn {
@@ -173,6 +173,10 @@ textarea {
 .column img {
   margin-top: 8px;
   vertical-align: middle; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto; }
 
 @media screen and (max-width: 1024px) {
   form {
