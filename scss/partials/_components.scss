@@ -1,112 +1,51 @@
 // // Buttons
-// .btn {
-//     display: inline-block;
-//     text-align: center;
-//     border: 1px solid transparent;
-//     padding: .375rem .75rem;
-//     font-size: 1rem;
-//     border-radius: .25rem;
-//     background: rgba(7, 167, 7, 0.898);
-//     color: white;
-//     padding: 15px 20px;
-//     border: none;
-//     cursor: pointer;
-//     width: 100%;
-//     opacity: 0.9;
+.submit-btn {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    background: rgb(79, 79, 80);
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
 
-//     :hover {
-//         opacity: 1;
-//     }    
-// }
-
-// .btn-primary {
-//     color: #fff;
-//     background-color: #123800bd;
-//     border-color: #123800bd;
-// }
-
+    :hover {
+        opacity: 1;
+    }    
+}
 
 // // Icons
-// .icon {
-//     padding: 10px;
-//     background: rgba(7, 167, 7, 0.898);
-//     color: white;
-//     min-width: 50px;
-//     text-align: center;
-// }
+.icon {
+    padding: 10px;
+    // background: rgba(7, 167, 7, 0.898);
+    background: rgb(79, 79, 80);
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
 
-// .fab:hover {
-//     opacity: 0.7;
-// }
+.fab:hover {
+    opacity: 0.7;
+}
 
-// .fa-facebook {
-//     background: rgba(110, 115, 124, 0.72);
-//     color: white;
+.fa-facebook,
+.fa-twitter,
+.fa-google,
+.fa-linkedin,
+.fa-youtube,
+.fa-instagram {
+    background: rgb(79, 79, 80);
+    color: white;
 
-//     padding: 20px;
-//     font-size: 30px;
-//     width: 14%;
-//     text-align: center;
-//     text-decoration: none;
-//     margin: 5px 2px;
-// }
-
-// .fa-twitter {
-//     background: rgba(110, 115, 124, 0.72);
-//     color: white;
-
-//     padding: 20px;
-//     font-size: 30px;
-//     width: 14%;
-//     text-align: center;
-//     text-decoration: none;
-//     margin: 5px 2px;
-// }
-
-// .fa-google {
-//     background: rgba(110, 115, 124, 0.72);
-//     color: white;
-
-//     padding: 20px;
-//     font-size: 30px;
-//     width: 14%;
-//     text-align: center;
-//     text-decoration: none;
-//     margin: 5px 2px;
-// }
-
-// .fa-linkedin {
-//     background: rgba(110, 115, 124, 0.72);
-//     color: white;
-
-//     padding: 20px;
-//     font-size: 30px;
-//     width: 14%;
-//     text-align: center;
-//     text-decoration: none;
-//     margin: 5px 2px;
-// }
-
-// .fa-youtube {
-//     background: rgba(110, 115, 124, 0.72);
-//     color: white;
-
-//     padding: 20px;
-//     font-size: 30px;
-//     width: 14%;
-//     text-align: center;
-//     text-decoration: none;
-//     margin: 5px 2px;
-// }
-
-// .fa-instagram {
-//     background: rgba(110, 115, 124, 0.72);
-//     color: white;
-
-//     padding: 20px;
-//     font-size: 30px;
-//     width: 14%;
-//     text-align: center;
-//     text-decoration: none;
-//     margin: 5px 2px;
-// }
+    padding: .6em;
+    font-size: 1em;
+    // width: 14%;
+    text-align: center;
+    text-decoration: none;
+    // margin: 5px 0;
+}

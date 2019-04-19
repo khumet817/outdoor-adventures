@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +12,12 @@
     <!-- Icon Library -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <style>
 
@@ -21,35 +26,69 @@
     }
     </style>
 </head>
-
-<body>
+<body class="body-contact">
     <!-- Start of header -->
-    <header id="home">
+    <!-- <header id="home">
         <section>SPES BONA ('GOOD HOPE')</section>
-    </header>
+    </header> -->
     <!-- End of header -->
 
     <!-- Start of nav -->
-    <section class="other-navbar">
-        <a href="index.html">EXPLORE THE WESTERN CAPE</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <a class="navbar-brand" href="index.html">WCape</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <ul>
-            <!-- <li>
-                <a href="#">ACTIVITIES</a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav nav-links">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="contact.html">Contact Us  <span class="sr-only">(current)</span></a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown link
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                </div>
             </li> -->
-            <li>
-                <a href="index.html">HOME</a>
-            </li>
-            <li>
-                <a href="contact.html">GALLERY</a>
-            </li>
-        </ul>
-    </section>
+            </ul>
+        </div>
+    </nav>
     <!-- End of nav -->
+
+    <div class="jumbotron page-hero">
+        <h1 class="display-4">Get in touch with us!</h1>
+        <p class="lead">
+            Follow us:
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+        </p>
+        <hr class="my-4">
+        <p>              
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                </ol>
+            </nav>
+        </p>
+        <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
+    </div>
     
-    <div class="body-contact">
+    <div>
         <form action="">
-            <h1>We Appreciate Feedback</h1>
+            <h3>We Would Love To Hear From You</h3>
         
             <div class="input-container">
                 <i class="fa fa-user icon"></i>
@@ -79,30 +118,7 @@
                 <textarea class="input-field" placeholder="Write something.." name="subject" required></textarea>
             </div>
         
-            <button type="submit" class="btn">Submit</button>
-        
-            <br>
-        
-            <div>
-                <a href="#">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-google"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-youtube"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </div>
+            <button type="submit" class="submit-btn">Submit</button>
         </form>
         
         <!-- Start of footer -->

@@ -1,5 +1,49 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins|Ubuntu:300|Work+Sans");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+.submit-btn {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  background: #4f4f50;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9; }
+  .submit-btn :hover {
+    opacity: 1; }
+
+.icon {
+  padding: 10px;
+  background: #4f4f50;
+  color: white;
+  min-width: 50px;
+  text-align: center; }
+
+.fab:hover {
+  opacity: 0.7; }
+
+.fa-facebook,
+.fa-twitter,
+.fa-google,
+.fa-linkedin,
+.fa-youtube,
+.fa-instagram {
+  background: #4f4f50;
+  color: white;
+  padding: .6em;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none; }
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box; }
+
 body {
   margin: 0 auto; }
 
@@ -7,13 +51,13 @@ main {
   height: auto;
   padding: 50px; }
 
-footer {
-  background: #123800;
-  color: white;
-  text-align: center;
-  height: auto;
-  padding: 20px;
-  font-family: "Work Sans", sans-serif; }
+form {
+  max-width: 33%;
+  margin: 3% 5% 5% 60%; }
+
+textarea {
+  height: 220px;
+  width: relative; }
 
 .home {
   height: 100vh;
@@ -41,6 +85,9 @@ footer {
   top: 35%;
   padding: 0 150px; }
 
+.coat-of-arms {
+  float: left; }
+
 .card {
   width: 100%;
   position: relative;
@@ -62,8 +109,36 @@ footer {
   flex-grow: 1;
   max-width: 80%; }
 
+.page-hero {
+  background: #4f4f50 !important;
+  color: white; }
+
+.nav-links {
+  position: absolute;
+  right: 5vw; }
+
 .gallery-main {
   padding: 50px 10vw; }
+
+.body-contact {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: beige;
+  background: url(../img/contact_form-bgimg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px; }
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none; }
+  .input-field :focus {
+    border: 2px solid #4f4f50; }
 
 .row {
   display: -ms-flexbox;
@@ -86,6 +161,10 @@ footer {
   margin-top: 8px;
   vertical-align: middle; }
 
+@media screen and (max-width: 1024px) {
+  form {
+    max-width: 50%;
+    margin: 3% 5% 5% auto; } }
 @media screen and (max-width: 768px) {
   .initials {
     left: 10vw; }
@@ -94,7 +173,15 @@ footer {
     right: 10vw; }
 
   .title {
-    padding: 0 50px; } }
+    padding: 0 50px; }
+
+  .body-contact {
+    background-position-x: 50%;
+    background-position-y: 50%; }
+
+  form {
+    max-width: 100%;
+    margin: 5%; } }
 @media screen and (max-width: 501px) {
   .initials {
     left: 43vw; }
@@ -107,7 +194,10 @@ footer {
     font-size: 2em; }
 
   .quote {
-    font-size: 0.9em !important; } }
+    font-size: 0.9em !important; }
+
+  .coat-of-arms {
+    width: 100%; } }
 @media screen and (max-width: 425px) {
   .initials {
     left: 41vw; }
@@ -135,6 +225,10 @@ footer {
 
   .navBar {
     right: 6vw; } }
+@media screen and (max-width: 991px) {
+  .nav-links {
+    position: initial;
+    right: 0; } }
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
