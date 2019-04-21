@@ -12,26 +12,49 @@
     text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, .5);
 }
 
-.top-directories {
-    display: inline-flex;
-    position: fixed;
-    width: 100%;
-}
-
 .logo {
     position: absolute;
-    left: -25vw;
+    left: 25vw;
 }
 
-.navBar {
+.nav-links-home {
     position: absolute;
-    right: 75vw;
+    right: 25vw;
     display: -webkit-box !important;
 
     a {
         color: #c9c7c7;
+
+        a:hover {
+            color: white !important;
+        }
     }
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-activities {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+    a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+
+        a:hover {background-color: #ddd;}
+    }
+}
+
+.dropdown:hover .dropdown-activities {display: block;}
 
 .title {
     position: absolute;
