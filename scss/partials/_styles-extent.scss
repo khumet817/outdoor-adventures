@@ -14,16 +14,19 @@
 
 .top-directories {
     display: inline-flex;
+    position: fixed;
+    width: 100%;
 }
 
-.initials {
+.logo {
     position: absolute;
-    left: 20vw;
+    left: -25vw;
 }
 
 .navBar {
     position: absolute;
-    right: 20vw;
+    right: 75vw;
+    display: -webkit-box !important;
 
     a {
         color: #c9c7c7;
